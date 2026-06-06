@@ -1,25 +1,46 @@
+# Logs & output
+*-log.txt
+scripts/*-log.txt
+output/*
+!output/.gitkeep
+cookies/*
+!cookies/.gitkeep
+migration/**/*
+!migration/**/.gitkeep
+
+# Local data (keep examples)
+.env
+profiles.csv
+proxies.txt
+keywords.txt
+live_comments.txt
+mentions.txt
+
+# Private dev tooling (local only — never publish)
+AUTO-COMMIT.bat
+PUBLISH.bat
+LOGIN-GITHUB.bat
+SET-GITHUB-SEO.bat
+scripts/auto-commit.ps1
+scripts/publish.ps1
+scripts/login-github.ps1
+scripts/set-github-topics.ps1
+scripts/legacy/
+scripts/*-log.txt
+
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-.env
 .venv
-ENV/
 venv/
-build/
-dist/
-.eggs/
 *.egg-info/
+dist/
+build/
 
-# Node
-node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# VSCode
+# IDE
 .vscode/
-
-# Mac
 .DS_Store
+
+# Screenshots (except README assets)
+*.png
+!README*.png

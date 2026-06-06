@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multilogin-x-sdk"
+version = "1.5.0"
+description = "Multilogin X Python SDK — 53 antidetect automation tools. Full packs & EXE via @Multilogin_Scripts_Bot. Promo SAAS50."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "requests>=2.31.0",
+    "playwright>=1.40.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.4.0", "pytest>=8.0.0"]
+
+[project.scripts]
+mlx = "mlx.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mlx*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"demos/*" = ["E501", "I001", "E741"]
