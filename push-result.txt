@@ -1,0 +1,12 @@
+﻿=== git workflow ===
+NOTE: libexec GIT_EXE path not found; fallback mingw64\bin\git.exe
+
+>>> git status -sb
+## main...origin/main
+?? build-push.ps1
+?? push-now.cmd
+?? push-result.txt
+?? shell-test.txt
+
+
+>>> git add -A
