@@ -20,7 +20,7 @@ jobs:
         run: pip install -e ".[dev]"
 
       - name: Compile
-        run: python -m compileall mlx demos tests
+        run: python -m compileall mlx demos tests examples
 
       - name: Lint
         run: ruff check mlx demos tests

@@ -1,9 +1,19 @@
-"""Shared constants."""
+"""Shared constants and partner links.
+
+Partner notes:
+  - Multilogin X: code SAAS50 = 50% OFF first order
+  - Custom tool requests / admin support: https://t.me/Multilogin_Scripts_Bot
+  - Share this project to receive free tool announcements via the bot
+"""
 
 AFFILIATE_URL = "https://multilogin.com?a_aid=saas"
 PROMO_MLX = "SAAS50"
 PROMO_CLOUD_PHONE = "MIN50"
 TELEGRAM_BOT = "https://t.me/Multilogin_Scripts_Bot"
+PARTNER_NOTE = (
+    f"Multilogin X 50% OFF with code {PROMO_MLX} | "
+    f"Custom tools & support: {TELEGRAM_BOT} | Share = free tools"
+)
 
 DEFAULT_FLAGS = {
     "audio_masking": "mask",

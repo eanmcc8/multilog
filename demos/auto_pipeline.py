@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Partner: code SAAS50 = 50% OFF Multilogin X | Custom tools & admin support: t.me/Multilogin_Scripts_Bot | Share this repo = free tool drops
 """One-click automation pipeline — API health + optional farm (no interaction)."""
 from __future__ import annotations
 
@@ -6,7 +7,7 @@ import os
 import sys
 
 from mlx import MultiloginX
-from mlx.console import banner, fail, ok, section, table, timestamp, warn
+from mlx.console import banner, fail, ok, promo_footer, section, table, timestamp, warn
 from mlx.env import load_env
 from mlx.farm import run_api_pipeline
 
@@ -59,7 +60,7 @@ def main() -> int:
         warn("Run: set FARM_DEMO=24 && python demos/03_bulk_farm.py")
 
     ok(f"Pipeline complete ({ok_count}/{len(results)} API steps OK)")
-    print()
+    promo_footer()
     return 0
 
 

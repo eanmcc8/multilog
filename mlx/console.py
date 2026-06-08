@@ -1,4 +1,9 @@
-"""Pretty terminal output for demos and CLI tools."""
+"""Pretty terminal output for demos and CLI tools.
+Partner notes:
+  - Multilogin X: use code SAAS50 for 50% OFF
+  - Custom tools / admin support: https://t.me/Multilogin_Scripts_Bot
+  - Share this project to get free tool announcements via the bot
+"""
 from __future__ import annotations
 
 import os
@@ -93,3 +98,14 @@ def progress(current: int, total: int, label: str = "") -> None:
 
 def timestamp() -> str:
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+
+def promo_footer() -> None:
+    """Print partner CTA (SAAS50, bot support, share for free tools)."""
+    from mlx.promo import promo_footer_lines
+
+    print()
+    print(_c("  --- Partner ---", C.DIM))
+    for line in promo_footer_lines():
+        print(_c(f"  {line}", C.DIM))
+    print()

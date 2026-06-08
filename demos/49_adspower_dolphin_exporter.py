@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Partner: code SAAS50 = 50% OFF Multilogin X | Custom tools & admin support: t.me/Multilogin_Scripts_Bot | Share this repo = free tool drops
 """Demo: export cookies from AdsPower / Dolphin and import into Multilogin X."""
 import os
 from pathlib import Path

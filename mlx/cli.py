@@ -1,4 +1,7 @@
-"""Command-line interface for Multilogin X SDK."""
+"""Command-line interface for Multilogin X SDK.
+
+Partner: SAAS50 = 50% OFF | Support: t.me/Multilogin_Scripts_Bot | Share = free tools
+"""
 from __future__ import annotations
 
 import argparse
@@ -71,7 +74,10 @@ def cmd_cookies(args: argparse.Namespace) -> int:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="mlx", description="Multilogin X SDK CLI")
+    parser = argparse.ArgumentParser(
+        prog="mlx",
+        description="Multilogin X SDK CLI — SAAS50 (50% OFF) | Support: @Multilogin_Scripts_Bot",
+    )
     sub = parser.add_subparsers(dest="command", required=True)
 
     p_list = sub.add_parser("list", help="List profiles, folders, or workspaces")

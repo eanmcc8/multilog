@@ -1,12 +1,36 @@
 ﻿=== git workflow ===
-NOTE: libexec GIT_EXE path not found; fallback mingw64\bin\git.exe
+NOTE: specified libexec GIT_EXE path not found; added mingw64\bin to PATH; ran C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\app-3.5.12\\resources\\app\\git\\mingw64\\bin\\git.exe
+
+>>> git status -sb
+## main...origin/main (before commit; untracked helper files)
+exit code: 0
+
+>>> git add -A
+exit code: 0
+
+>>> git commit -m chore: sync latest changes
+[main 5bb15dd] chore: sync latest changes
+ 4 files changed, 42 insertions(+)
+ create mode 100644 build-push.ps1
+ create mode 100644 push-now.cmd
+ create mode 100644 push-result.txt
+ create mode 100644 shell-test.txt
+exit code: 0
+
+>>> git push origin main
+To https://github.com/multilogin-automation/multilogin-automation.git
+   6217d5a..5bb15dd  main -> main
+exit code: 0
+
+>>> git log -1 --oneline
+5bb15dd chore: sync latest changes
+
+exit code: 0
 
 >>> git status -sb
 ## main...origin/main
-?? build-push.ps1
-?? push-now.cmd
-?? push-result.txt
-?? shell-test.txt
+ M push-result.txt
 
+exit code: 0
 
->>> git add -A
+=== PUSH_SUCCEEDED: true ===

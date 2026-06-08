@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/playwright-CDP-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Multilogin_X-API_SDK-0078D4?style=for-the-badge" alt="Multilogin X" />
   <img src="https://img.shields.io/badge/tools-53_scripts-0078D4?style=for-the-badge" alt="53 tools" />
-  <img src="https://img.shields.io/badge/version-1.5.0-blue?style=for-the-badge" alt="v1.5.0" />
+  <img src="https://img.shields.io/badge/version-1.5.1-blue?style=for-the-badge" alt="v1.5.1" />
 </p>
 
 <p align="center">
@@ -67,7 +67,23 @@ AUTO-SETUP.bat          # Windows: pip + playwright + .env templates
 # Edit .env → MLX_EMAIL, MLX_PASSWORD, MLX_FOLDER_ID
 AUTO-PIPELINE.bat       # API health check
 RUN-DEMOS.bat           # Pick any of 53 tools
+python examples/01_hello_mlx.py   # SDK examples (see examples/)
 ```
+
+### SDK examples (8 scripts)
+
+| Example | Command |
+| :--- | :--- |
+| Auth + list profiles | `python examples/01_hello_mlx.py` |
+| Screenshot | `python examples/02_start_and_screenshot.py` |
+| Validate proxies | `python examples/03_validate_proxies.py` |
+| Cookie export | `python examples/04_cookie_roundtrip.py` |
+| Create profile | `python examples/05_create_profile.py` |
+| Playwright scrape | `python examples/06_playwright_scrape.py` |
+| Bulk farm | `python examples/07_farm_builtin.py` |
+| Quick profile | `python examples/08_quick_profile.py` |
+
+Catalog: [`examples/README.md`](./examples/README.md) · Custom builds → [**@Multilogin_Scripts_Bot**][tg-bot]
 
 **Bulk farm** any tool across your profile folder:
 
@@ -267,6 +283,7 @@ Questions about profile farms, proxy rotation, or migrating from AdsPower/Dolphi
 ```
 multilogin-automation/
 ├── mlx/              # SDK (client, browser, farm, captcha, migrate, …)
+├── examples/         # 8 copy-paste SDK examples
 ├── demos/            # 53 automation tools + run.py
 ├── migration/        # Import folders for competitor tools
 ├── AUTO-SETUP.bat    # One-click install

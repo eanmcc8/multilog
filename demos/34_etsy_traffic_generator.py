@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Partner: code SAAS50 = 50% OFF Multilogin X | Custom tools & admin support: t.me/Multilogin_Scripts_Bot | Share this repo = free tool drops
 """Demo: Etsy store traffic generator from clean profiles."""
 import asyncio
 import os

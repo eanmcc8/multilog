@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Partner: code SAAS50 = 50% OFF Multilogin X | Custom tools & admin support: t.me/Multilogin_Scripts_Bot | Share this repo = free tool drops
 """Interactive demo launcher — pick a tool from the menu."""
 from __future__ import annotations
 
@@ -6,7 +7,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-from mlx.console import C, _c, banner, section, table
+from mlx.console import C, _c, banner, promo_footer, section, table
 
 # (id, name, description, script, category)
 DEMOS = [
@@ -89,7 +90,8 @@ def print_menu(filter_cat: str | None = None) -> None:
 
 
 def main() -> None:
-    banner("Multilogin X Demo Suite", "53 tools · Full packs + EXE → t.me/Multilogin_Scripts_Bot · SAAS50")
+    banner("Multilogin X Demo Suite", "53 tools · code SAAS50 = 50% OFF · @Multilogin_Scripts_Bot")
+    promo_footer()
     print_menu()
     print()
     print(_c("  Commands: 01-53 | auto | cat seo|... | q quit", C.DIM))

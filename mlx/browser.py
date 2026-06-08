@@ -1,4 +1,9 @@
-"""Playwright CDP helpers for Multilogin X profiles."""
+"""Playwright CDP helpers for Multilogin X profiles.
+Partner notes:
+  - Multilogin X: use code SAAS50 for 50% OFF
+  - Custom tools / admin support: https://t.me/Multilogin_Scripts_Bot
+  - Share this project to get free tool announcements via the bot
+"""
 from __future__ import annotations
 
 from contextlib import asynccontextmanager
