@@ -20,4 +20,4 @@ __all__ = [
     "PROMO_CLOUD_PHONE",
     "TELEGRAM_BOT",
 ]
-__version__ = "1.5.1"
+__version__ = "1.9.0"

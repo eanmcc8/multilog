@@ -79,4 +79,4 @@ Write-Host "`n=== SETUP DONE ===" -ForegroundColor Green
 Write-Host "Next:"
 Write-Host "  1. Edit .env (MLX_EMAIL, MLX_PASSWORD, MLX_FOLDER_ID)"
 Write-Host "  2. AUTO-PIPELINE.bat  — API health check"
-Write-Host "  3. RUN-DEMOS.bat      — interactive menu (53 tools)"
+Write-Host "  3. RUN-DEMOS.bat      — interactive menu (120 tools)"

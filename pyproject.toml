@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "multilogin-x-sdk"
-version = "1.5.1"
-description = "Multilogin X Python SDK — 53 antidetect automation tools. Full packs & EXE via @Multilogin_Scripts_Bot. Promo SAAS50."
+version = "1.9.0"
+description = "Multilogin X Python SDK — 120 antidetect automation tools. Playwright CDP. @Multilogin_Scripts_Bot · SAAS50"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
