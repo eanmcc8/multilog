@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "number": "001",
+    "name": "List Profiles",
+    "description": "Workspaces, folders, profile search",
+    "script": "01_list_profiles.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/01_list_profiles.py"
+  },
+  {
+    "id": 2,
+    "number": "002",
+    "name": "Start / Stop",
+    "description": "Open profile, screenshot, auto-stop",
+    "script": "02_start_stop_profile.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/02_start_stop_profile.py"
+  },
+  {
+    "id": 3,
+    "number": "003",
+    "name": "Bulk Farm",
+    "description": "Run task across multiple profiles",
+    "script": "03_bulk_farm.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/03_bulk_farm.py"
+  },
+  {
+    "id": 4,
+    "number": "004",
+    "name": "Cookie Backup",
+    "description": "Export cookies to JSON",
+    "script": "04_cookie_backup.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/04_cookie_backup.py"
+  },
+  {
+    "id": 5,
+    "number": "005",
+    "name": "Proxy Check",
+    "description": "Validate single proxy",
+    "script": "05_proxy_check.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/05_proxy_check.py"
+  },
+  {
+    "id": 6,
+    "number": "006",
+    "name": "GitHub Login",
+    "description": "Automated GitHub sign-in",
+    "script": "06_github_login.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/06_github_login.py"
+  },
+  {
+    "id": 7,
+    "number": "007",
+    "name": "Social Warmup",
+    "description": "Visit sites to build trust",
+    "script": "07_social_warmup.py",
+    "category": "warmup",
+    "category_label": "Warm-up & Browsing",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/07_social_warmup.py"
+  },
+  {
+    "id": 8,
+    "number": "008",
+    "name": "Quick Profile",
+    "description": "Disposable browser (v3 API)",
+    "script": "08_quick_profile.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/08_quick_profile.py"
+  },
+  {
+    "id": 9,
+    "number": "009",
+    "name": "Fingerprint Scan",
+    "description": "Bot detection test + report",
+    "script": "09_fingerprint_scan.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/09_fingerprint_scan.py"
+  },
+  {
+    "id": 10,
+    "number": "010",
+    "name": "Google Login",
+    "description": "Google account sign-in flow",
+    "script": "10_google_login.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/10_google_login.py"
+  },
+  {
+    "id": 11,
+    "number": "011",
+    "name": "Facebook Warmup",
+    "description": "Scroll feed, simulate activity",
+    "script": "11_facebook_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/11_facebook_warmup.py"
+  },
+  {
+    "id": 12,
+    "number": "012",
+    "name": "Twitter Warmup",
+    "description": "Browse timeline, natural scroll",
+    "script": "12_twitter_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/12_twitter_warmup.py"
+  },
+  {
+    "id": 13,
+    "number": "013",
+    "name": "Bulk Clone",
+    "description": "Clone profiles via Cloud API",
+    "script": "13_bulk_clone_profiles.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/13_bulk_clone_profiles.py"
+  },
+  {
+    "id": 14,
+    "number": "014",
+    "name": "Bulk Proxy Check",
+    "description": "Validate proxies from file",
+    "script": "14_bulk_proxy_check.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/14_bulk_proxy_check.py"
+  },
+  {
+    "id": 15,
+    "number": "015",
+    "name": "Cookie Restore",
+    "description": "Import cookies from JSON backup",
+    "script": "15_cookie_restore.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/15_cookie_restore.py"
+  },
+  {
+    "id": 16,
+    "number": "016",
+    "name": "Profile Dashboard",
+    "description": "Full account overview",
+    "script": "16_profile_dashboard.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/16_profile_dashboard.py"
+  },
+  {
+    "id": 17,
+    "number": "017",
+    "name": "E-commerce Warmup",
+    "description": "Amazon/eBay browsing pattern",
+    "script": "17_ecommerce_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/17_ecommerce_warmup.py"
+  },
+  {
+    "id": 18,
+    "number": "018",
+    "name": "Active Monitor",
+    "description": "Live running-profiles monitor",
+    "script": "18_active_monitor.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/18_active_monitor.py"
+  },
+  {
+    "id": 19,
+    "number": "019",
+    "name": "Mass Profile Creator",
+    "description": "Create 1000+ profiles from CSV",
+    "script": "19_mass_profile_creator.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/19_mass_profile_creator.py"
+  },
+  {
+    "id": 20,
+    "number": "020",
+    "name": "Proxy Rotator",
+    "description": "Check live + assign to profiles",
+    "script": "20_proxy_rotator_assigner.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/20_proxy_rotator_assigner.py"
+  },
+  {
+    "id": 21,
+    "number": "021",
+    "name": "Cookie Bulk I/O",
+    "description": "Netscape/JSON import/export bulk",
+    "script": "21_cookie_injector_exporter.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/21_cookie_injector_exporter.py"
+  },
+  {
+    "id": 22,
+    "number": "022",
+    "name": "Fingerprint Randomizer",
+    "description": "Refresh UA, Canvas, WebGL flags",
+    "script": "22_fingerprint_randomizer.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/22_fingerprint_randomizer.py"
+  },
+  {
+    "id": 23,
+    "number": "023",
+    "name": "Local API Manager",
+    "description": "Launcher ports, active, stop-all",
+    "script": "23_local_api_manager.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/23_local_api_manager.py"
+  },
+  {
+    "id": 24,
+    "number": "024",
+    "name": "News History",
+    "description": "CNN, BBC, Forbes browsing",
+    "script": "24_news_history_warmup.py",
+    "category": "warmup",
+    "category_label": "Warm-up & Browsing",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/24_news_history_warmup.py"
+  },
+  {
+    "id": 25,
+    "number": "025",
+    "name": "Mouse Scroller",
+    "description": "Random mouse, scroll, click",
+    "script": "25_random_mouse_scroller.py",
+    "category": "warmup",
+    "category_label": "Warm-up & Browsing",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/25_random_mouse_scroller.py"
+  },
+  {
+    "id": 26,
+    "number": "026",
+    "name": "Google Search Warmup",
+    "description": "Search keywords, click results",
+    "script": "26_google_search_warmup.py",
+    "category": "warmup",
+    "category_label": "Warm-up & Browsing",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/26_google_search_warmup.py"
+  },
+  {
+    "id": 27,
+    "number": "027",
+    "name": "YouTube Watcher",
+    "description": "Search, watch, like videos",
+    "script": "27_youtube_watcher.py",
+    "category": "warmup",
+    "category_label": "Warm-up & Browsing",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/27_youtube_watcher.py"
+  },
+  {
+    "id": 28,
+    "number": "028",
+    "name": "FB Initializer",
+    "description": "Cookie login + 5min feed warmup",
+    "script": "28_fb_account_initializer.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/28_fb_account_initializer.py"
+  },
+  {
+    "id": 29,
+    "number": "029",
+    "name": "FB BM Accepter",
+    "description": "Accept Business Manager invite",
+    "script": "29_fb_bm_invitation_accepter.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/29_fb_bm_invitation_accepter.py"
+  },
+  {
+    "id": 30,
+    "number": "030",
+    "name": "TikTok Feed Warmup",
+    "description": "FYP scroll and browse",
+    "script": "30_tiktok_feed_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/30_tiktok_feed_warmup.py"
+  },
+  {
+    "id": 31,
+    "number": "031",
+    "name": "Twitter Engagement",
+    "description": "Timeline browse + compose",
+    "script": "31_twitter_engagement_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/31_twitter_engagement_warmup.py"
+  },
+  {
+    "id": 32,
+    "number": "032",
+    "name": "eBay Account Prep",
+    "description": "Clean env before registration",
+    "script": "32_ebay_account_prep.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/32_ebay_account_prep.py"
+  },
+  {
+    "id": 33,
+    "number": "033",
+    "name": "Amazon Wishlist",
+    "description": "Search product, add to list",
+    "script": "33_amazon_wishlist_adder.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/33_amazon_wishlist_adder.py"
+  },
+  {
+    "id": 34,
+    "number": "034",
+    "name": "Etsy Shop Warmup",
+    "description": "Organic shop browse",
+    "script": "34_etsy_shop_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/34_etsy_shop_warmup.py"
+  },
+  {
+    "id": 35,
+    "number": "035",
+    "name": "MetaMask Setup",
+    "description": "Extension install + import flow",
+    "script": "35_metamask_installer.py",
+    "category": "crypto",
+    "category_label": "Crypto & Web3",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/35_metamask_installer.py"
+  },
+  {
+    "id": 36,
+    "number": "036",
+    "name": "Galxe Automator",
+    "description": "Quest board + OAuth login",
+    "script": "36_galxe_quest_automator.py",
+    "category": "crypto",
+    "category_label": "Crypto & Web3",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/36_galxe_quest_automator.py"
+  },
+  {
+    "id": 37,
+    "number": "037",
+    "name": "Zealy Claimer",
+    "description": "Daily crew quest tasks",
+    "script": "37_zealy_quest_claimer.py",
+    "category": "crypto",
+    "category_label": "Crypto & Web3",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/37_zealy_quest_claimer.py"
+  },
+  {
+    "id": 38,
+    "number": "038",
+    "name": "Testnet Faucet",
+    "description": "Dev testnet + 2Captcha",
+    "script": "38_testnet_faucet_browser.py",
+    "category": "crypto",
+    "category_label": "Crypto & Web3",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/38_testnet_faucet_browser.py"
+  },
+  {
+    "id": 39,
+    "number": "039",
+    "name": "GMaps Listing",
+    "description": "Business page browse (read-only)",
+    "script": "39_gmaps_listing_browser.py",
+    "category": "seo",
+    "category_label": "Local SEO & Listings",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/39_gmaps_listing_browser.py"
+  },
+  {
+    "id": 40,
+    "number": "040",
+    "name": "Trustpilot Browser",
+    "description": "Business page research",
+    "script": "40_trustpilot_page_browser.py",
+    "category": "seo",
+    "category_label": "Local SEO & Listings",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/40_trustpilot_page_browser.py"
+  },
+  {
+    "id": 41,
+    "number": "041",
+    "name": "Yelp Listing",
+    "description": "Business listing browse",
+    "script": "41_yelp_listing_browser.py",
+    "category": "seo",
+    "category_label": "Local SEO & Listings",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/41_yelp_listing_browser.py"
+  },
+  {
+    "id": 42,
+    "number": "042",
+    "name": "Ticketmaster Warmup",
+    "description": "Event browse + session",
+    "script": "42_ticketmaster_session_warmup.py",
+    "category": "checkout",
+    "category_label": "Checkout & Payments",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/42_ticketmaster_session_warmup.py"
+  },
+  {
+    "id": 43,
+    "number": "043",
+    "name": "Nike SNKRS Browser",
+    "description": "Launch page browse",
+    "script": "43_nike_snkrs_browser.py",
+    "category": "checkout",
+    "category_label": "Checkout & Payments",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/43_nike_snkrs_browser.py"
+  },
+  {
+    "id": 44,
+    "number": "044",
+    "name": "Stripe Checkout QA",
+    "description": "Payment flow tester",
+    "script": "44_stripe_checkout_tester.py",
+    "category": "checkout",
+    "category_label": "Checkout & Payments",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/44_stripe_checkout_tester.py"
+  },
+  {
+    "id": 45,
+    "number": "045",
+    "name": "Turnstile Solver",
+    "description": "Cloudflare via CapSolver",
+    "script": "45_cloudflare_turnstile_solver.py",
+    "category": "crawler",
+    "category_label": "Crawler & Anti-Bot",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/45_cloudflare_turnstile_solver.py"
+  },
+  {
+    "id": 46,
+    "number": "046",
+    "name": "DataDome Template",
+    "description": "Akamai/DataDome profile flags",
+    "script": "46_datadome_akamai_template.py",
+    "category": "crawler",
+    "category_label": "Crawler & Anti-Bot",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/46_datadome_akamai_template.py"
+  },
+  {
+    "id": 47,
+    "number": "047",
+    "name": "reCAPTCHA v3 Probe",
+    "description": "Own-site score test",
+    "script": "47_recaptcha_v3_score_probe.py",
+    "category": "crawler",
+    "category_label": "Crawler & Anti-Bot",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/47_recaptcha_v3_score_probe.py"
+  },
+  {
+    "id": 48,
+    "number": "048",
+    "name": "ADBLogin Migrator",
+    "description": "Convert + import to MLX",
+    "script": "48_adblogin_migrator.py",
+    "category": "migrate",
+    "category_label": "Migration & Sync",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/48_adblogin_migrator.py"
+  },
+  {
+    "id": 49,
+    "number": "049",
+    "name": "AdsPower Exporter",
+    "description": "Export Dolphin/AdsPower cookies",
+    "script": "49_adspower_dolphin_exporter.py",
+    "category": "migrate",
+    "category_label": "Migration & Sync",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/49_adspower_dolphin_exporter.py"
+  },
+  {
+    "id": 50,
+    "number": "050",
+    "name": "Incogniton Sync",
+    "description": "Backup restore to MLX",
+    "script": "50_incogniton_backup_sync.py",
+    "category": "migrate",
+    "category_label": "Migration & Sync",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/50_incogniton_backup_sync.py"
+  },
+  {
+    "id": 51,
+    "number": "051",
+    "name": "YouTube Session",
+    "description": "Natural watch warmup",
+    "script": "51_youtube_session_warmup.py",
+    "category": "media",
+    "category_label": "Media & Streaming",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/51_youtube_session_warmup.py"
+  },
+  {
+    "id": 52,
+    "number": "052",
+    "name": "Twitch Stream",
+    "description": "Live stream browser",
+    "script": "52_twitch_stream_browser.py",
+    "category": "media",
+    "category_label": "Media & Streaming",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/52_twitch_stream_browser.py"
+  },
+  {
+    "id": 53,
+    "number": "053",
+    "name": "TikTok Live",
+    "description": "Live stream browser",
+    "script": "53_tiktok_live_browser.py",
+    "category": "media",
+    "category_label": "Media & Streaming",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/53_tiktok_live_browser.py"
+  },
+  {
+    "id": 54,
+    "number": "054",
+    "name": "Instagram Warmup",
+    "description": "Feed scroll + explore",
+    "script": "54_instagram_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/54_instagram_warmup.py"
+  },
+  {
+    "id": 55,
+    "number": "055",
+    "name": "LinkedIn Warmup",
+    "description": "B2B feed activity",
+    "script": "55_linkedin_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/55_linkedin_warmup.py"
+  },
+  {
+    "id": 56,
+    "number": "056",
+    "name": "Pinterest Warmup",
+    "description": "Pin discovery browse",
+    "script": "56_pinterest_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/56_pinterest_warmup.py"
+  },
+  {
+    "id": 57,
+    "number": "057",
+    "name": "Reddit Warmup",
+    "description": "Subreddit browse",
+    "script": "57_reddit_community_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/57_reddit_community_warmup.py"
+  },
+  {
+    "id": 58,
+    "number": "058",
+    "name": "Discord Warmup",
+    "description": "Web client channels",
+    "script": "58_discord_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/58_discord_warmup.py"
+  },
+  {
+    "id": 59,
+    "number": "059",
+    "name": "Shopify Warmup",
+    "description": "Store browse pattern",
+    "script": "59_shopify_store_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/59_shopify_store_warmup.py"
+  },
+  {
+    "id": 60,
+    "number": "060",
+    "name": "Shopee Warmup",
+    "description": "SEA marketplace browse",
+    "script": "60_shopee_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/60_shopee_warmup.py"
+  },
+  {
+    "id": 61,
+    "number": "061",
+    "name": "Walmart Warmup",
+    "description": "US retail browse",
+    "script": "61_walmart_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/61_walmart_warmup.py"
+  },
+  {
+    "id": 62,
+    "number": "062",
+    "name": "WhatsApp Web",
+    "description": "WA Web session hold",
+    "script": "62_whatsapp_web_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/62_whatsapp_web_warmup.py"
+  },
+  {
+    "id": 63,
+    "number": "063",
+    "name": "Telegram Web",
+    "description": "TG Web chat scroll",
+    "script": "63_telegram_web_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/63_telegram_web_warmup.py"
+  },
+  {
+    "id": 64,
+    "number": "064",
+    "name": "Health Audit",
+    "description": "Profile pre-flight check",
+    "script": "64_profile_health_audit.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/64_profile_health_audit.py"
+  },
+  {
+    "id": 65,
+    "number": "065",
+    "name": "Bulk Renamer",
+    "description": "Prefix rename profiles",
+    "script": "65_bulk_profile_renamer.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/65_bulk_profile_renamer.py"
+  },
+  {
+    "id": 66,
+    "number": "066",
+    "name": "Binance Warmup",
+    "description": "Exchange market browse",
+    "script": "66_binance_warmup.py",
+    "category": "crypto",
+    "category_label": "Crypto & Web3",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/66_binance_warmup.py"
+  },
+  {
+    "id": 67,
+    "number": "067",
+    "name": "OpenSea Browser",
+    "description": "NFT marketplace browse",
+    "script": "67_opensea_browser.py",
+    "category": "crypto",
+    "category_label": "Crypto & Web3",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/67_opensea_browser.py"
+  },
+  {
+    "id": 68,
+    "number": "068",
+    "name": "Captcha Balance",
+    "description": "2Captcha / CapSolver wallet",
+    "script": "68_captcha_balance_check.py",
+    "category": "crawler",
+    "category_label": "Crawler & Anti-Bot",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/68_captcha_balance_check.py"
+  },
+  {
+    "id": 69,
+    "number": "069",
+    "name": "Session Keepalive",
+    "description": "Long session pulse",
+    "script": "69_session_keepalive.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/69_session_keepalive.py"
+  },
+  {
+    "id": 70,
+    "number": "070",
+    "name": "Threads Warmup",
+    "description": "Meta Threads feed",
+    "script": "70_threads_meta_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/70_threads_meta_warmup.py"
+  },
+  {
+    "id": 71,
+    "number": "071",
+    "name": "Snapchat Web",
+    "description": "Stories + discover",
+    "script": "71_snapchat_web_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/71_snapchat_web_warmup.py"
+  },
+  {
+    "id": 72,
+    "number": "072",
+    "name": "AliExpress",
+    "description": "Product search browse",
+    "script": "72_aliexpress_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/72_aliexpress_warmup.py"
+  },
+  {
+    "id": 73,
+    "number": "073",
+    "name": "Travel Warmup",
+    "description": "Booking + Airbnb",
+    "script": "73_booking_travel_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/73_booking_travel_warmup.py"
+  },
+  {
+    "id": 74,
+    "number": "074",
+    "name": "PayPal Session",
+    "description": "Dashboard browse",
+    "script": "74_paypal_session_warmup.py",
+    "category": "checkout",
+    "category_label": "Checkout & Payments",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/74_paypal_session_warmup.py"
+  },
+  {
+    "id": 75,
+    "number": "075",
+    "name": "Steam Store",
+    "description": "Game store browser",
+    "script": "75_steam_game_browser.py",
+    "category": "gaming",
+    "category_label": "Gaming",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/75_steam_game_browser.py"
+  },
+  {
+    "id": 76,
+    "number": "076",
+    "name": "Spotify Listener",
+    "description": "Playlist session",
+    "script": "76_spotify_listener_warmup.py",
+    "category": "media",
+    "category_label": "Media & Streaming",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/76_spotify_listener_warmup.py"
+  },
+  {
+    "id": 77,
+    "number": "077",
+    "name": "Upwork Browser",
+    "description": "Freelance job feed",
+    "script": "77_upwork_freelancer_browser.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/77_upwork_freelancer_browser.py"
+  },
+  {
+    "id": 78,
+    "number": "078",
+    "name": "Google Ads",
+    "description": "Ads Manager dashboard",
+    "script": "78_google_ads_manager_browser.py",
+    "category": "ads",
+    "category_label": "Ads Manager",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/78_google_ads_manager_browser.py"
+  },
+  {
+    "id": 79,
+    "number": "079",
+    "name": "Meta Ads",
+    "description": "Facebook Ads Manager",
+    "script": "79_facebook_ads_manager_browser.py",
+    "category": "ads",
+    "category_label": "Ads Manager",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/79_facebook_ads_manager_browser.py"
+  },
+  {
+    "id": 80,
+    "number": "080",
+    "name": "Indeed Jobs",
+    "description": "Job search browse",
+    "script": "80_indeed_job_search_warmup.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/80_indeed_job_search_warmup.py"
+  },
+  {
+    "id": 81,
+    "number": "081",
+    "name": "Temu / Shein",
+    "description": "Discount shop browse",
+    "script": "81_temu_shop_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/81_temu_shop_warmup.py"
+  },
+  {
+    "id": 82,
+    "number": "082",
+    "name": "Coinbase",
+    "description": "Crypto market browse",
+    "script": "82_coinbase_warmup.py",
+    "category": "crypto",
+    "category_label": "Crypto & Web3",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/82_coinbase_warmup.py"
+  },
+  {
+    "id": 83,
+    "number": "083",
+    "name": "Quora Warmup",
+    "description": "Community feed browse",
+    "script": "83_quora_community_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/83_quora_community_warmup.py"
+  },
+  {
+    "id": 84,
+    "number": "084",
+    "name": "Mercari / Poshmark",
+    "description": "Resale marketplace",
+    "script": "84_mercari_resale_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/84_mercari_resale_warmup.py"
+  },
+  {
+    "id": 85,
+    "number": "085",
+    "name": "Bing Search",
+    "description": "Keyword search warmup",
+    "script": "85_bing_search_warmup.py",
+    "category": "warmup",
+    "category_label": "Warm-up & Browsing",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/85_bing_search_warmup.py"
+  },
+  {
+    "id": 86,
+    "number": "086",
+    "name": "DuckDuckGo Search",
+    "description": "Privacy search warmup",
+    "script": "86_duckduckgo_search_warmup.py",
+    "category": "warmup",
+    "category_label": "Warm-up & Browsing",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/86_duckduckgo_search_warmup.py"
+  },
+  {
+    "id": 87,
+    "number": "087",
+    "name": "Craigslist",
+    "description": "Local classifieds browse",
+    "script": "87_craigslist_listings_browser.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/87_craigslist_listings_browser.py"
+  },
+  {
+    "id": 88,
+    "number": "088",
+    "name": "Zillow Real Estate",
+    "description": "Property listing browse",
+    "script": "88_zillow_realestate_browser.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/88_zillow_realestate_browser.py"
+  },
+  {
+    "id": 89,
+    "number": "089",
+    "name": "Netflix Session",
+    "description": "Catalog browse warmup",
+    "script": "89_netflix_session_warmup.py",
+    "category": "media",
+    "category_label": "Media & Streaming",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/89_netflix_session_warmup.py"
+  },
+  {
+    "id": 90,
+    "number": "090",
+    "name": "Medium / Substack",
+    "description": "Article reader warmup",
+    "script": "90_medium_substack_reader.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/90_medium_substack_reader.py"
+  },
+  {
+    "id": 91,
+    "number": "091",
+    "name": "Slack Web",
+    "description": "Workspace channel browse",
+    "script": "91_slack_web_warmup.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/91_slack_web_warmup.py"
+  },
+  {
+    "id": 92,
+    "number": "092",
+    "name": "Outlook Web",
+    "description": "Inbox session warmup",
+    "script": "92_microsoft_outlook_warmup.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/92_microsoft_outlook_warmup.py"
+  },
+  {
+    "id": 93,
+    "number": "093",
+    "name": "DoorDash",
+    "description": "Restaurant menu browse",
+    "script": "93_doordash_delivery_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/93_doordash_delivery_warmup.py"
+  },
+  {
+    "id": 94,
+    "number": "094",
+    "name": "Fiverr Gigs",
+    "description": "Freelance gig browse",
+    "script": "94_fiverr_freelancer_browser.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/94_fiverr_freelancer_browser.py"
+  },
+  {
+    "id": 95,
+    "number": "095",
+    "name": "Kraken Exchange",
+    "description": "Crypto market browse",
+    "script": "95_kraken_crypto_warmup.py",
+    "category": "crypto",
+    "category_label": "Crypto & Web3",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/95_kraken_crypto_warmup.py"
+  },
+  {
+    "id": 96,
+    "number": "096",
+    "name": "SoundCloud",
+    "description": "Track listener warmup",
+    "script": "96_soundcloud_listener_warmup.py",
+    "category": "media",
+    "category_label": "Media & Streaming",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/96_soundcloud_listener_warmup.py"
+  },
+  {
+    "id": 97,
+    "number": "097",
+    "name": "Tumblr Feed",
+    "description": "Community dashboard",
+    "script": "97_tumblr_community_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/97_tumblr_community_warmup.py"
+  },
+  {
+    "id": 98,
+    "number": "098",
+    "name": "Roblox Discover",
+    "description": "Game catalog browse",
+    "script": "98_roblox_game_browser.py",
+    "category": "gaming",
+    "category_label": "Gaming",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/98_roblox_game_browser.py"
+  },
+  {
+    "id": 99,
+    "number": "099",
+    "name": "Namecheap Domains",
+    "description": "Domain search browse",
+    "script": "99_namecheap_domain_browser.py",
+    "category": "core",
+    "category_label": "Profile & Proxy (Core)",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/99_namecheap_domain_browser.py"
+  },
+  {
+    "id": 100,
+    "number": "100",
+    "name": "Google Scholar",
+    "description": "Academic paper search",
+    "script": "100_google_scholar_research_browser.py",
+    "category": "warmup",
+    "category_label": "Warm-up & Browsing",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/100_google_scholar_research_browser.py"
+  },
+  {
+    "id": 101,
+    "number": "101",
+    "name": "Uber Eats",
+    "description": "Food delivery browse",
+    "script": "101_uber_eats_delivery_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/101_uber_eats_delivery_warmup.py"
+  },
+  {
+    "id": 102,
+    "number": "102",
+    "name": "Canva",
+    "description": "Design template browse",
+    "script": "102_canva_design_browser.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/102_canva_design_browser.py"
+  },
+  {
+    "id": 103,
+    "number": "103",
+    "name": "Notion",
+    "description": "Workspace page browse",
+    "script": "103_notion_workspace_warmup.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/103_notion_workspace_warmup.py"
+  },
+  {
+    "id": 104,
+    "number": "104",
+    "name": "Zoom Web",
+    "description": "Meeting portal session",
+    "script": "104_zoom_meeting_warmup.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/104_zoom_meeting_warmup.py"
+  },
+  {
+    "id": 105,
+    "number": "105",
+    "name": "MS Teams",
+    "description": "Teams chat browse",
+    "script": "105_microsoft_teams_warmup.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/105_microsoft_teams_warmup.py"
+  },
+  {
+    "id": 106,
+    "number": "106",
+    "name": "Mastodon",
+    "description": "Federated timeline",
+    "script": "106_mastodon_social_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/106_mastodon_social_warmup.py"
+  },
+  {
+    "id": 107,
+    "number": "107",
+    "name": "Bluesky",
+    "description": "AT Protocol feed",
+    "script": "107_bluesky_feed_warmup.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/107_bluesky_feed_warmup.py"
+  },
+  {
+    "id": 108,
+    "number": "108",
+    "name": "Coursera",
+    "description": "Course catalog browse",
+    "script": "108_coursera_learning_browser.py",
+    "category": "learn",
+    "category_label": "E-Learning & Courses",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/108_coursera_learning_browser.py"
+  },
+  {
+    "id": 109,
+    "number": "109",
+    "name": "Udemy",
+    "description": "Course search browse",
+    "script": "109_udemy_course_browser.py",
+    "category": "learn",
+    "category_label": "E-Learning & Courses",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/109_udemy_course_browser.py"
+  },
+  {
+    "id": 110,
+    "number": "110",
+    "name": "Patreon",
+    "description": "Creator page browse",
+    "script": "110_patreon_creator_browser.py",
+    "category": "social",
+    "category_label": "Social Media",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/110_patreon_creator_browser.py"
+  },
+  {
+    "id": 111,
+    "number": "111",
+    "name": "Stack Overflow",
+    "description": "Dev Q&A research",
+    "script": "111_stackoverflow_research_browser.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/111_stackoverflow_research_browser.py"
+  },
+  {
+    "id": 112,
+    "number": "112",
+    "name": "Product Hunt",
+    "description": "Launch discover feed",
+    "script": "112_producthunt_discover_browser.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/112_producthunt_discover_browser.py"
+  },
+  {
+    "id": 113,
+    "number": "113",
+    "name": "Glassdoor",
+    "description": "Company research browse",
+    "script": "113_glassdoor_company_browser.py",
+    "category": "work",
+    "category_label": "Freelance & Jobs",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/113_glassdoor_company_browser.py"
+  },
+  {
+    "id": 114,
+    "number": "114",
+    "name": "Target",
+    "description": "US retail deals browse",
+    "script": "114_target_retail_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/114_target_retail_warmup.py"
+  },
+  {
+    "id": 115,
+    "number": "115",
+    "name": "Best Buy",
+    "description": "Electronics browse",
+    "script": "115_bestbuy_electronics_warmup.py",
+    "category": "shop",
+    "category_label": "E-Commerce & Travel",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/115_bestbuy_electronics_warmup.py"
+  },
+  {
+    "id": 116,
+    "number": "116",
+    "name": "Wise",
+    "description": "International payments",
+    "script": "116_wise_transfer_warmup.py",
+    "category": "checkout",
+    "category_label": "Checkout & Payments",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/116_wise_transfer_warmup.py"
+  },
+  {
+    "id": 117,
+    "number": "117",
+    "name": "Revolut",
+    "description": "Banking web session",
+    "script": "117_revolut_banking_warmup.py",
+    "category": "checkout",
+    "category_label": "Checkout & Payments",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/117_revolut_banking_warmup.py"
+  },
+  {
+    "id": 118,
+    "number": "118",
+    "name": "Phantom Wallet",
+    "description": "Solana web3 browse",
+    "script": "118_phantom_wallet_browser.py",
+    "category": "crypto",
+    "category_label": "Crypto & Web3",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/118_phantom_wallet_browser.py"
+  },
+  {
+    "id": 119,
+    "number": "119",
+    "name": "Uniswap DEX",
+    "description": "DeFi swap interface",
+    "script": "119_uniswap_dex_browser.py",
+    "category": "crypto",
+    "category_label": "Crypto & Web3",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/119_uniswap_dex_browser.py"
+  },
+  {
+    "id": 120,
+    "number": "120",
+    "name": "Hacker News",
+    "description": "Tech news front page",
+    "script": "120_hacker_news_reader.py",
+    "category": "warmup",
+    "category_label": "Warm-up & Browsing",
+    "github_url": "https://github.com/multilogin-automation/multilogin-automation/blob/main/demos/120_hacker_news_reader.py"
+  }
+]
