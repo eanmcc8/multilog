@@ -20,12 +20,13 @@ dev = ["ruff>=0.4.0", "pytest>=8.0.0"]
 
 [project.scripts]
 mlx = "mlx.cli:main"
+stealthbrowser = "stealthbrowser.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["mlx*"]
+include = ["mlx*", "stealthbrowser*"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["tests", "stealthbrowser/tests"]
 
 [tool.ruff]
 line-length = 120

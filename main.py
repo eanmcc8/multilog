@@ -1,46 +1,57 @@
 """
-Multilogin X Python SDK — Entry Point
+StealthBrowser — standalone multi-backend browser automation module.
 
-This project is the Multilogin X Python SDK for browser automation.
-Run demos with: python3 demos/<demo_name>.py
-Or use the CLI:  mlx --help
+Backends  : Playwright · Selenium/undetected-chromedriver · HTTP (httpx/requests)
+No external service required.  Profiles are local and fully customizable.
 
-Setup:
-  1. Copy .env.example to .env and fill in your credentials.
-  2. Run any demo: python3 demos/01_auth_check.py
+Quick start:
+  python3 stealthbrowser/demos/demo_01_http_fetch.py
+  python3 stealthbrowser/demos/demo_02_profile_batch.py
+  python3 stealthbrowser/demos/demo_03_farm_http.py
+  python3 stealthbrowser/demos/demo_04_fingerprint_report.py
 
-Documentation: README.md
+CLI:
+  stealthbrowser profile create --os windows --driver http
+  stealthbrowser profile batch  --count 10 --prefix MyProfile -o profiles.json
+  stealthbrowser fingerprint    --os macos
+  stealthbrowser fetch          https://httpbin.org/headers --title
 """
 
 import sys
+import json
 
-from mlx import MultiloginX, __version__
-from mlx.constants import PARTNER_NOTE
+from stealthbrowser import __version__
+from stealthbrowser.profile import BrowserProfile, Fingerprint
 
 
 def main() -> None:
-    print(f"Multilogin X Python SDK v{__version__}")
-    print(PARTNER_NOTE)
-    print()
-    print("Usage:")
-    print("  python3 demos/<demo_name>.py   — run a specific demo")
-    print("  mlx --help                      — CLI interface")
-    print()
-    print("Setup:")
-    print("  1. Copy .env.example to .env")
-    print("  2. Fill in MLX_EMAIL and MLX_PASSWORD")
-    print("  3. Run: python3 demos/01_auth_check.py")
+    print(f"StealthBrowser v{__version__}")
+    print("Standalone multi-backend browser automation — no external service required.")
     print()
 
-    try:
-        from mlx.env import get_env
-        email = get_env("MLX_EMAIL", required=False)
-        if email:
-            print(f"Detected credentials for: {email}")
-        else:
-            print("No .env credentials found — copy .env.example to .env to get started.")
-    except Exception:
-        print("No .env credentials found — copy .env.example to .env to get started.")
+    # Show a quick fingerprint sample for each OS
+    print("Sample fingerprints:")
+    for os_name in ("windows", "macos", "linux"):
+        fp = Fingerprint.random(os_name)
+        print(f"  [{os_name:7s}] {fp.user_agent[:65]}...")
+        print(f"           {fp.resolution_width}x{fp.resolution_height}  "
+              f"{fp.locale}  {fp.timezone}  cores={fp.hardware_concurrency}")
+    print()
+
+    print("Run a demo:")
+    demos = [
+        ("demo_01", "HTTP fetch with random fingerprint"),
+        ("demo_02", "Batch-create & save profiles"),
+        ("demo_03", "HTTP farm across 4 profiles"),
+        ("demo_04", "Fingerprint report (all OS types)"),
+        ("demo_05", "Proxy pool rotation"),
+        ("demo_06", "Cookie utilities"),
+        ("demo_07", "Playwright warmup (needs: playwright install chromium)"),
+    ]
+    for name, desc in demos:
+        print(f"  python3 stealthbrowser/demos/{name}_*.py  — {desc}")
+    print()
+    print("CLI:  stealthbrowser --help")
 
 
 if __name__ == "__main__":
