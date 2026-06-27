@@ -1,5 +1,0 @@
-name,browser_type,os_type
-Farm-001,mimic,windows
-Farm-002,mimic,windows
-Farm-003,stealthfox,linux
-Farm-004,mimic,macos

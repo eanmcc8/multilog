@@ -1,6 +1,0 @@
-# Sample proxy list for demo 14_bulk_proxy_check.py
-# Format: host:port  or  host:port:user:pass  or  socks5://host:port
-#
-# 192.168.1.1:8080
-# proxy.example.com:3128:username:password
-# socks5://127.0.0.1:9050
